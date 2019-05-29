@@ -10,10 +10,10 @@
        1. Load Python Packages to workspace; Pandas, numpy, statsmodels.formula.api, seaborn, matplotlib and sklearn.preprocessing
        2. Input file; CSV file (CSF_Python_update.csv)containing covariates, CSF biomarkers, Basal forebrain
        3. Store in data frame (my_data_frame)
-       4. View first few rows and columns ofthe data frame using *head.()*
-       5. Check the dimension of the data frame to get an idea of number of observations and columns *__.shape*
+       4. View first few rows and columns ofthe data frame using head.()
+       5. Check the dimension of the data frame to get an idea of number of observations and columns __.shape
 
-#### **Descriptive Statistics: *groupby.()* **
+#### **Descriptive Statistics: groupby.()**
 
        1. Group by Sex
        2. Group by all the three CSF Pathological biomkers (ABeta, TTau and PTau)
@@ -21,9 +21,9 @@
 
 #### **Visualization of the data to see patterns (Correlation Matrix and Boxplots)**
 
-       1. Convert binary variables to (0,1) unit for easy use; *pd.get_dummies()*
+       1. Convert binary variables to (0,1) unit for easy use; pd.get_dummies()
        2. Symmetric Correlation Matrix; *__cor.()*
-       3. Boxplots for different combination of variables using library *sns.()*
+       3. Boxplots for different combination of variables using library sns.()
 
 #### **Gender Proportions with CSF Pathological changes and Apoe4 Risk Gene**
 
@@ -38,12 +38,12 @@
        2. Subset Response variables for our models
        3. Use For Loop and If esle statements ( ABeta, TTau and PTau) to exctract response variables in "CSF_target"
 
-#### **Fitted Models: CSF Biomarkers Pathology and Basal Forebrain Models ; Logistic Regression Model. *smf.logit()* **
+#### **Fitted Models: CSF Biomarkers Pathology and Basal Forebrain Models ; Logistic Regression Model. smf.logit()**
 
        1. We use For Loops, If, Elif and Else statements to iterate over dataset
-       2. For each condition saity by the if statement we proceed and fit Model 1, Model 2 and Model 3 and excute with a pass in Else statement
+       2. For each condition satisfy by the if statement we proceed and fit Model 1, Model 2 and Model 3 and excute with a pass in Else statement
        3. For each model, we fit same covariates store in formula as string for the three CSF biomarkers in CSF_target
 
-#### **Print Command: Print important statistics for inferential purposes *(Estiames, Z-Values, P-Values, OR, 95 % CI etc)* **
+#### **Print Command: Print important statistics for inferential purposes (Estiames, Z-Values, P-Values, OR, 95 % CI etc)**
 
-       *This loops continuous until we ouput our last CSF Pathological Model and loop ends*
+       *This loops continuous until we output our last CSF Pathological Model and loop ends*
