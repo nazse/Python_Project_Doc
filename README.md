@@ -7,15 +7,15 @@
 
 #### **Overview: To do in Python ( Use: Jupyter-notebook)**
 
-       1. Load Python Packages to workspace; Pandas, numpy, statsmodels.formula.api, seaborn, matplotlib and sklearn.preprocessing 
-       2. Input file; CSV file (CSF_Python_update.csv)containing covariates, CSF biomarkers, Basal forebrain 
+       1. Load Python Packages to workspace; Pandas, numpy, statsmodels.formula.api, seaborn, matplotlib and sklearn.preprocessing
+       2. Input file; CSV file (CSF_Python_update.csv)containing covariates, CSF biomarkers, Basal forebrain
        3. Store in data frame (my_data_frame)
        4. View first few rows and columns ofthe data frame using *head.()*
        5. Check the dimension of the data frame to get an idea of number of observations and columns *__.shape*
 
 #### **Descriptive Statistics: *groupby.()* **
 
-       1. Group by Sex 
+       1. Group by Sex
        2. Group by all the three CSF Pathological biomkers (ABeta, TTau and PTau)
        3. Group by Apoe4 Allele
 
@@ -25,7 +25,7 @@
        2. Symmetric Correlation Matrix; *__cor.()*
        3. Boxplots for different combination of variables using library *sns.()*
 
-#### **Gender Proportions with CSF Pathological changes and Apoe4 Risk Gene** 
+#### **Gender Proportions with CSF Pathological changes and Apoe4 Risk Gene**
 
        1. Amyloid pathology(pg/mL) and Gender proportions
        2. Total Tau pathology(pg/mL) and Gender proportions
@@ -45,6 +45,5 @@
        3. For each model, we fit same covariates store in formula as string for the three CSF biomarkers in CSF_target
 
 #### **Print Command: Print important statistics for inferential purposes *(Estiames, Z-Values, P-Values, OR, 95 % CI etc)* **
-       
-       *This loops continuous until we ouput our last CSF Pathological Model and loop ends*
 
+       *This loops continuous until we ouput our last CSF Pathological Model and loop ends*
